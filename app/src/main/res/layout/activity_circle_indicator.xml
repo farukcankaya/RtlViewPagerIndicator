@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.farukcankaya.rtlviewpagerindicatorsample.CircleIndicatorActivity">
 
-    <com.booking.rtlviewpager.RtlViewPager
+    <com.farukcankaya.rtlviewpager.RtlViewPager
         android:id="@+id/rtl_view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

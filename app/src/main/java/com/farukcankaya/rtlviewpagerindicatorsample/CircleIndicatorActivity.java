@@ -1,9 +1,9 @@
 package com.farukcankaya.rtlviewpagerindicatorsample;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-import com.booking.rtlviewpager.RtlViewPager;
+import com.farukcankaya.rtlviewpager.RtlViewPager;
 import com.farukcankaya.rtlviewpagerindicator.CircleIndicator;
 
 public class CircleIndicatorActivity extends AppCompatActivity {

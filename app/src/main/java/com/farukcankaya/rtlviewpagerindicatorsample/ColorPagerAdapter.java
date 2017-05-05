@@ -35,9 +35,11 @@ public class ColorPagerAdapter extends PagerAdapter {
     public Object instantiateItem(ViewGroup container, int position) {
         View view = LayoutInflater.from(container.getContext()).inflate(R.layout.item_color_pager,
                 container, false);
+        TextView numberTextView = (TextView) view.findViewById(R.id.number);
         TextView titleTextView = (TextView) view.findViewById(R.id.title);
 
         view.setBackgroundColor(colors[position]);
+        numberTextView.setText(String.valueOf(position));
         titleTextView.setText(titles[position]);
 
         container.addView(view);
