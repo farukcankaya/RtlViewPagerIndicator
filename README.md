@@ -10,18 +10,11 @@ Paging indicator widgets compatible with the RtlViewPager. It is inspired from t
 | <img src="https://github.com/farukcankaya/RtlViewPagerIndicator/blob/master/art/ltr.gif" />      | <img src="https://github.com/farukcankaya/RtlViewPagerIndicator/blob/master/art/rtl.gif" /> |
 
 # Usage
-It will be available in jCenter soon but now you need to add my maven repository.
+Now, it is in jCenter!!
 
 ### First step
 Put code below to your build.gradle file that is under /app directory:
 ```java
-repositories {
-    ...
-    maven {
-        url  "http://dl.bintray.com/farukcankaya/maven"
-    }
-}
-
 dependencies {
     ...
     compile 'com.farukcankaya.rtlviewpagerindicator:1.0.0'
